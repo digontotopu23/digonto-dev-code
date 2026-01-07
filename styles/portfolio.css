@@ -37,23 +37,29 @@
     font-size: 18px; margin-bottom: 30px;
     line-height: 30px; color: #757575;
 }
-
-/* main style */
-header{
-    background-color: #FFF8F3;
-    background: url(../images/developer.png), 
-    url(../images/header_bg.png) #FFF8F3 ;
-    background-position: top left, bottom right;
-    background-repeat: no-repeat;
-    padding-top: 50px;
+.text-center{
+    text-align: center;
 }
-
-nav{
+.container{
     width: 71%;
     max-width: 1140px;
     /* border: 1px solid red; */
     margin: 0px auto;
-    display: flex;
+
+}
+
+/* main style */
+
+header{
+    background-color: #FFF8F3;
+    background: url(../images/developer.png), 
+    url(../images/header_bg.png) #FFF8F3 ;
+    background-position: 23px 38px, bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+nav{display: flex;
     justify-content: space-between;
     align-items: center;
     
@@ -98,17 +104,14 @@ nav .menu a{
     margin-bottom: 30px;
 }
 #banner .banner-image img{
-    max-width: 585px; vertical-align: middle;
+    max-width: 585px;
+    vertical-align: middle;
 }
 #about , #skills ,
 #resume {
     padding-top: 130px;
 }
-#about .about-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
-    text-align: center;
+#about .about-container{ text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
 }
@@ -125,11 +128,8 @@ nav .menu a{
     font-size: 20px;
 }
  
-#skills .skills-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
-}
+ 
+
 #skills .skills-container .skill-box{
     display: flex;
     gap: 24px;
@@ -159,10 +159,8 @@ nav .menu a{
 }
 
 #resume .resume-container{
-        width: 71%;
-        max-width: 1140px;
-        margin: 113px auto 0;
-        display: flex;
+    margin-top: 113px;
+     display: flex;
         gap: 24px;
 }
 .resume-container hr{
@@ -195,4 +193,40 @@ nav .menu a{
     font-size: 16px;
     line-height: 28px;
     color: #757575 ;
+}
+ footer{
+    margin: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+ 
+footer .footer-container{
+     
+    display: flex;
+    gap: 116px;
+}
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+ .footer-container .social p{  
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"], .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
