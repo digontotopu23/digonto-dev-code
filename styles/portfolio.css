@@ -52,11 +52,12 @@
 
 header{
     background-color: #FFF8F3;
-    background: url(../images/developer.png), 
+    background: url(../images/developer.png),
     url(../images/header_bg.png) #FFF8F3 ;
-    background-position: 23px 38px, bottom right;
-    background-repeat: no-repeat;
-    padding-top: 50px;
+    background-size: 90px;
+    background-position:23px 38px, bottom right; 
+  background-repeat: no-repeat; 
+  padding-top: 50px; 
 }
 
 nav{display: flex;
@@ -79,7 +80,7 @@ nav .menu a{
 #banner{
     /* border: 1px solid red; */
     margin: 47px 38px 0px 230px;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
 }
@@ -88,8 +89,8 @@ nav .menu a{
 }
 #banner .banner-content h2{
     font-size: 45px;
-    font-weight: 600;
-    color: #474747;
+    font-weight: 600; 
+     color: #474747; 
     margin-bottom: 5px;
 }
 #banner .banner-content h1{
