@@ -248,8 +248,8 @@ footer .footer-container{
     .btn-group{
         justify-content: center;
     }
-    .btn-group .btn , .btn{
-        font-size: 10px;
+    .btn-group .btn {
+        font-size: 15px;
     }
     header{
     background: url(../images/header_bg.png),#FFF8F3 ;
@@ -298,9 +298,9 @@ footer .footer-container{
 .resume-card{
     margin-right: 10px;
 }
-footer .footer-container .social{
-    margin: 5px;
-}
+ footer{
+    margin: 30px;
+ }
 footer .footer-container h2{
     font-size: 25px;
 }
